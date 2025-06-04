@@ -1,1 +1,24 @@
+演習１　Rubyの基本構文とデータ型
+  ハッシュの主な役割:キーと値のペアを格納するデータ構造
+  Rubyでシンボルを使う利点:メモリ使用量が少なく、比較が高速
+  配列の主な役割:複数の値を順序付けて格納するデータ構造
+  Rubyでnil?メソッドの役割:オブジェクトがnilかどうかを判定する
+  5 > 2を実行した時の出力：true
+  puts nilを実行した時の出力：空行
+  puts nil.classを実行した時の出力：NilClass
+  Rubyで数値を文字列に変換するメソッド：to_s
+  symbol = :my_symbol
+  puts symbol.classを実行した時の出力：Symbol
+  puts 1 + 2を実行した時の出力：3
+  puts true && falseを実行した時の出力:false
+  Rubyで文字列を定義する方法:"Hello, World!"
+  ubyでハッシュを定義する方法:{ key: "value" }
+  3 == 3を実行した時の出力:true
+  Rubyで真偽値を表すデータ型:trueとfalse
+  puts nil || "default"を実行した時の出力:"default"
+  Rubyでシンボルを定義する方法::example
+  Rubyで配列を定義する方法:[1, 2, 3]
+  Ruby の「オブジェクト」を正しく説明しているもの:Rubyでは全てのデータがオブジェクトとして扱われる
+  puts "Ruby".upcaseを実行した時の出力:RUBY
 
+演習２　制御フローと繰り返し処理
